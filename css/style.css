@@ -1,0 +1,46 @@
+/* 
+* Custom Framework * 
+* A simple,flexible,powerful and fully responsive grid based front-end web framework *
+* makes your web development faster and easier,& it takes you all the way from 1200px on down to 320px. * 
+* Developed by Sky Albert @ RHP Team - trantoan.fox.97@gmail.com 
+* Licensed under GPLv2 * http://github.com/trantoan960 * 
+*/
+/* ---------------------------------------- HTML RESET ----------------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; font-family: Tahoma; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, label, legend { display: block }
+body { background: #fff; font: 13px/22px Tahoma, sans-serif; color: #666;  }
+blockquote, q { quotes: none }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+img { max-width: 100% }
+i { font-family: Tahoma; font-style: italic, Georgia }
+label { font-size: 14px; color: #4d4d4d; cursor: pointer; display: block; font-weight: 500; margin-bottom: 3px; }
+/* ---------------------------------------- Content Css For Page -----------------------------------------
+#01 Header
+---------------------------------------- Content Css For Page ----------------------------------------- */
+
+
+/* ---------------------------------------- Normalize Page ----------------------------------------- */
+h1, h2, h3, h4, h5, h6 { font-style: normal; color: #ff724c; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; font-family: Tahoma; font-weight: bold; }
+
+/* ---------------------------------------- Header ----------------------------------------- */
+.header-top { height: 90px; position: relative; font-size: 14px; }
+.avt-img { height: 90px; max-width: 100%; }
+#topNav ul { list-style: none; position: relative; }
+#topNav ul li { float: left; height: 90px; line-height: 90px; }
+#topNav ul li a { display: block; height: 90px; padding: 0 20px; text-decoration: none; color: #ff724c; }
+#topNav ul li a:hover { background: #ff724c; color: #fff; }
+/* ---------------------------------------- Slide ----------------------------------------- */
+.slide { height: 520px; position: relative; background-color: #000; }
+/* ---------------------------------------- Under Slide ----------------------------------------- */
+.introbox { padding: 20px 0; border-right: 1px solid #ddd; }
+.introbox:last-child { border-right: none; }
+.introboxinner { width: 95%; padding-left: 20px; }
+.home-icone { padding: 10px 10px; color: #ff724c; font-size: 45px; float: left; margin-right: 10px; }
+.shadowunderslide { background: url(../img/bg/sh.png) no-repeat 50% 0; height: 30px; width: 100%; }
+
+/* ---------------------------------------- Type Product ----------------------------------------- */
+.type-product-header { text-align: center; margin-bottom: 25px; }
+.type-product-header h1.type-product-title { font-size: 25px; line-height: 25px; }
+.type-product-header i.type-product-desc { font-size: 15px; font-style: italic; }
+
