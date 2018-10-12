@@ -28,6 +28,7 @@ a:hover { text-decoration: none; }
 h1, h2, h3, h4, h5, h6 { font-style: normal; color: #ff724c; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; font-family: Tahoma; font-weight: bold; }
 .name { font-size: 14px; margin-bottom: 15px; }
 .no-resize { resize: none; }
+.text-orange { color: #ff724c!important; }
 /* ---------------------------------------- Distance Page ----------------------------------------- */
 .m-r-10 { margin-right: 10px!important; }
 .m-t-15 { margin-top: 15px!important; }
@@ -77,7 +78,16 @@ h1, h2, h3, h4, h5, h6 { font-style: normal; color: #ff724c; text-rendering: opt
 .copyright { background-color: #ff724c; color: #fff; padding: 10px 0; font-size: 12px; border-top: 12px; border-top: 1px solid #ddd; }
 /* ---------------------------------------- Title Banner ----------------------------------------- */
 .title-banner { background: url(../img/bg/3.jpg) no-repeat center bottom; height: 175px; position: relative; }
+.title-banner.product-img { background: url(../img/bg/slide1.jpg) no-repeat center bottom; }
 .title-head { color: #fff; font-size: 26px; }
 .telephone { font-size: 15px; font-weight: normal; }
 /* ---------------------------------------- Adress Map ----------------------------------------- */
 .g-map { background: #fff; border: 1px solid #ddd; padding: 4px; width: 100%; height: 450px; }
+/* ---------------------------------------- Filter ----------------------------------------- */
+form.filter-form input, form.filter-form select, form.filter-form p { margin-bottom: 10px; }
+form.filter-form p { text-align: center; font-weight: bold; }
+.list-quick-filter li { display: inline-block; }
+/* ---------------------------------------- Product Card ----------------------------------------- */
+.grid-product div[class^="col-"] { margin-bottom: 10px; }
+/* ---------------------------------------- Pagination ----------------------------------------- */
+.wrap-pagination { position: relative; margin-top: 10px; }

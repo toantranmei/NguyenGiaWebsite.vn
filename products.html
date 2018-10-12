@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Master Branch Git Project</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header-top">
+            <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <a href="index.html">
+                                <img class="avt-img" src="img/logo/logo.png" alt="logo website">
+                            </a>
+                        </div>
+                        <!-- Start: Menu -->
+                        <div class="col-md-9">
+                            <nav id="topNav" class="nav float-md-right">
+                                <ul>
+                                    <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                                    <li><a href="about.html">Giới thiệu</a></li>
+                                    <li><a href="products.html">Sản phẩm</a></li>
+                                    <li><a href="agency.html">Đại lý</a></li>
+                                    <li><a href="contact.html">Liên hệ</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!-- End: Menu -->
+                    </div>
+                </div>
+        </header>
+        <!-- ./ Header -->
+
+        <section class="title-banner product-img d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1 class="title-head">Sản phẩm</h1>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="title-head telephone float-md-right">
+                            <i class="fas fa-address"></i>
+                            (+8424)3755 6888
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ Title Banner -->
+
+        <section class="main-product">
+            <div class="container">
+                <div class="row">
+                    <div class="box-empty-40"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="main-title "><span>Sản phẩm</span></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <form class="filter-form" action="products.html" method="POST">
+                            <input class="form-control" type="text" name="product-id" placeholder="Mã sản phẩm">
+                            <p>hoặc tìm</p>
+                            <select name="brand" id="" class="form-control">
+                                <option value="default" selected>---Nhãn hiệu---</option>
+                                <option value="brand01">---Nhãn hiệu 01---</option>
+                                <option value="brand02">---Nhãn hiệu 02---</option>
+                                <option value="brand03">---Nhãn hiệu 03---</option>
+                            </select>
+                            <select name="type" id="" class="form-control">
+                                <option value="default" selected>---Chủng loại---</option>
+                                <option value="type01">---Chủng loại 01---</option>
+                                <option value="type02">---Chủng loại 02---</option>
+                                <option value="type03">---Chủng loại 03---</option>
+                            </select>
+                            <select name="size" id="" class="form-control">
+                                <option value="default" selected>---Kích thước---</option>
+                                <option value="size01">---Kích thước 01---</option>
+                                <option value="size02">---Kích thước 02---</option>
+                                <option value="size03">---Kích thước 03---</option>
+                            </select>
+                            <button type="submit" class="btn btn-sm-warning bg-orange">Tìm kiếm</button>
+                            <button type="reset" class="btn">Hủy</button>
+                        </form>
+                    </div>
+                    <div class="col-md-9">
+                        <ul class="list-quick-filter">
+                            <li class="item-quick-filter">
+                                <a class="btn btn-outline-warning bg-orange active" href="#">Tất cả</a>
+                            </li>
+                            <li class="item-quick-filter">
+                                <a class="btn btn-outline-secondary" href="#">Loại sản phẩm 1</a>
+                            </li>
+                            <li class="item-quick-filter">
+                                <a class="btn btn-outline-secondary" href="#">Loại sản phẩm 2</a>
+                            </li>
+                        </ul>
+                        <!-- List Product -->
+                        <div class="grid-product">
+                            <div class="row">
+                                <div class="box-empty-40"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sản phẩm 1</h5>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Mã sản phẩm: SP001A</li>
+                                            <li class="list-group-item">Kích thước: L, Xl, M</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="btn-block btn btn-warning bg-orange">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sản phẩm 1</h5>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Mã sản phẩm: SP001A</li>
+                                            <li class="list-group-item">Kích thước: L, Xl, M</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="btn-block btn btn-warning bg-orange">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sản phẩm 1</h5>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Mã sản phẩm: SP001A</li>
+                                            <li class="list-group-item">Kích thước: L, Xl, M</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="btn-block btn btn-warning bg-orange">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sản phẩm 1</h5>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Mã sản phẩm: SP001A</li>
+                                            <li class="list-group-item">Kích thước: L, Xl, M</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="btn-block btn btn-warning bg-orange">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sản phẩm 1</h5>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Mã sản phẩm: SP001A</li>
+                                            <li class="list-group-item">Kích thước: L, Xl, M</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="btn-block btn btn-warning bg-orange">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card">
+                                        <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Sản phẩm 1</h5>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Mã sản phẩm: SP001A</li>
+                                            <li class="list-group-item">Kích thước: L, Xl, M</li>
+                                        </ul>
+                                        <div class="card-body">
+                                            <a href="#" class="btn-block btn btn-warning bg-orange">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- ./ List Product -->
+                        <nav class="wrap-pagination d-flex justify-content-center">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link text-orange" href="#">Previous</a></li>
+                                <li class="page-item"><a class="page-link text-orange" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link text-orange" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link text-orange" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link text-orange" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ Main Product -->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <!-- To Top Button -->
+                    <p class="back-top">
+                        <a href="#"><span></span></a>
+                    </p>
+                    <!-- ./ To Top Button -->
+                    <div class="col-md-4">
+                        <img src="img/logo/logo.png" alt="Image Logo">
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="title-social">
+                            <i class="fab fa-twitter"></i>
+                            Cùng chúng tôi...
+                        </h2>
+                        <ul class="social-links m-t-15">
+                            <li class="social-link">
+                                <a href="">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-link">
+                                <a href="">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li class="social-link">
+                                <a href="">
+                                    <i class="fas fa-plus"></i>
+                                </a>
+                            </li>
+                            <li class="social-link">
+                                <a href="">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-link">
+                                <a href="">
+                                    <i class="fab fa-pinterest-p"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="title">
+                            <i class="fas fa-envelope"></i>
+                            Liên hệ
+                        </h2>
+                        <dl>
+                            <dt>Tầng 6, tòa Diamond Flower, Đ.Lê Văn Lương, Ph.Nhân Chính, Thanh Xuân, Hà Nội.</dt>
+                            <dd><span>Điện thoại:</span>(024)3755 6888</dd>
+                            <dd>E-mail: <a href="contact.html">infomikado@mikado.com.vn</a></dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ./ Footer -->
+        
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        MIKADO © 2018. All Rights Reserved.
+                    </div>
+                    <div class="col-md-6">
+                        <span class="float-md-right">Develop by JSOFT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ./ Copyright -->
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
