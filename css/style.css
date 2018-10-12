@@ -23,6 +23,7 @@ label { font-size: 14px; color: #4d4d4d; cursor: pointer; display: block; font-w
 /* ---------------------------------------- Normalize Page ----------------------------------------- */
 a { color: #ff724c; text-decoration: none; line-height: inherit; }
 a:hover { text-decoration: none; }
+.box-empty-40 { height: 40px; position: relative; }
 h1, h2, h3, h4, h5, h6 { font-style: normal; color: #ff724c; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; font-family: Tahoma; font-weight: bold; }
 
 /* ---------------------------------------- Distance Page ----------------------------------------- */
@@ -72,3 +73,7 @@ h1, h2, h3, h4, h5, h6 { font-style: normal; color: #ff724c; text-rendering: opt
 .social-links li a { background: #ff724c; display: block; color: #fff; width: 32px; height: 32px; text-align: center; line-height: 32px; border-radius: 50%; }
 /* ---------------------------------------- Copyright ----------------------------------------- */
 .copyright { background-color: #ff724c; color: #fff; padding: 10px 0; font-size: 12px; border-top: 12px; border-top: 1px solid #ddd; }
+/* ---------------------------------------- Title Banner ----------------------------------------- */
+.title-banner { background: url(../img/bg/3.jpg) no-repeat center bottom; height: 175px; position: relative; }
+.title-head { color: #fff; font-size: 26px; }
+.telephone { font-size: 15px; font-weight: normal; }
