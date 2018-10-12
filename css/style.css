@@ -23,9 +23,11 @@ label { font-size: 14px; color: #4d4d4d; cursor: pointer; display: block; font-w
 /* ---------------------------------------- Normalize Page ----------------------------------------- */
 a { color: #ff724c; text-decoration: none; line-height: inherit; }
 a:hover { text-decoration: none; }
+.bg-orange { background: #ff724c!important; color: #fff!important; border-color: #ff724c; }
 .box-empty-40 { height: 40px; position: relative; }
 h1, h2, h3, h4, h5, h6 { font-style: normal; color: #ff724c; text-rendering: optimizeLegibility; line-height: 1.1; margin-bottom: 14px; margin-top: 14px; font-family: Tahoma; font-weight: bold; }
-
+.name { font-size: 14px; margin-bottom: 15px; }
+.no-resize { resize: none; }
 /* ---------------------------------------- Distance Page ----------------------------------------- */
 .m-r-10 { margin-right: 10px!important; }
 .m-t-15 { margin-top: 15px!important; }
@@ -77,3 +79,5 @@ h1, h2, h3, h4, h5, h6 { font-style: normal; color: #ff724c; text-rendering: opt
 .title-banner { background: url(../img/bg/3.jpg) no-repeat center bottom; height: 175px; position: relative; }
 .title-head { color: #fff; font-size: 26px; }
 .telephone { font-size: 15px; font-weight: normal; }
+/* ---------------------------------------- Adress Map ----------------------------------------- */
+.g-map { background: #fff; border: 1px solid #ddd; padding: 4px; width: 100%; height: 450px; }
