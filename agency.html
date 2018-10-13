@@ -13,27 +13,39 @@
     <div class="wrapper">
         <header class="header-top">
             <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <a href="index.html">
-                                <img class="avt-img" src="img/logo/logo.png" alt="logo website">
-                            </a>
-                        </div>
-                        <!-- Start: Menu -->
-                        <div class="col-md-9">
-                            <nav id="topNav" class="nav float-md-right">
-                                <ul>
-                                    <li><a href="index.html"><i class="fas fa-home"></i></a></li>
-                                    <li><a href="about.html">Giới thiệu</a></li>
-                                    <li><a href="products.html">Sản phẩm</a></li>
-                                    <li><a href="agency.html">Đại lý</a></li>
-                                    <li><a href="contact.html">Liên hệ</a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                        <!-- End: Menu -->
+                <div class="row">
+                    <div class="col-md-3 col-sm-10 col-9">
+                        <a href="index.html">
+                            <img class="avt-img" src="img/logo/logo.png" alt="logo website">
+                        </a>
                     </div>
+                    <!-- Start: Menu -->
+                    <div class="col-md-9 col-sm-2 col-3">
+                        <nav id="topNav" class="nav float-md-right">
+                            <ul class="d-none d-sm-none d-md-block">
+                                <li><a href="index.html"><i class="fas fa-home"></i></a></li>
+                                <li><a href="about.html">Giới thiệu</a></li>
+                                <li><a href="products.html">Sản phẩm</a></li>
+                                <li><a href="agency.html">Đại lý</a></li>
+                                <li><a href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </nav>
+                        <div class="menu-mobile d-block d-sm-block d-md-none">
+                            <a href="javascript:void(0)" class="float-md-right menu-items-res">
+                                <i class="fas fa-bars"></i>
+                            </a>
+                            <ul class="block-menu-res">
+                                <li><a href="about.html">Giới thiệu</a></li>
+                                <li><a href="products.html">Sản phẩm</a></li>
+                                <li><a href="agency.html">Đại lý</a></li>
+                                <li><a href="contact.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- End: Menu -->
                 </div>
+            </div>
         </header>
         <!-- ./ Header -->
 
@@ -41,10 +53,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <h1 class="title-head">Đại lý</h1>
+                        <h1 class="title-head text-center text-sm-center text-md-left">Đại lý</h1>
                     </div>
                     <div class="col-md-6">
-                        <h1 class="title-head telephone float-md-right">
+                        <h1 class="title-head telephone float-md-right text-center text-sm-center text-md-right">
                             <i class="fas fa-address"></i>
                             (+8424)3755 6888
                         </h1>
@@ -67,7 +79,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <form action="agency.html" method="post">
-                            <div class="d-flex align-items-center col-md-8 offset-md-2">
+                            <div class="d-flex align-items-center col-md-8 offset-md-2 col-12 col-sm-12 p-0">
                                 <input class="mr-sm-2 form-control" type="text" name="name" placeholder="Nhập tên đại lý">
                                 <select class="mr-sm-2 form-control" name="" id="">
                                     <option value="default">---Chọn khu vực---</option>
@@ -102,7 +114,7 @@
                     <div class="box-empty-10"></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-6 col-lg-3 mb-3">
                         <div class="card">
                             <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="Card image cap">
                             <div class="card-body">
@@ -116,7 +128,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6 col-lg-3 mb-3">
                         <div class="card">
                             <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="Card image cap">
                             <div class="card-body">
@@ -130,7 +142,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6 col-lg-3 mb-3">
                         <div class="card">
                             <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="Card image cap">
                             <div class="card-body">
@@ -144,7 +156,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6 col-lg-3 mb-3">
                         <div class="card">
                             <img class="card-img-top" src="https://via.placeholder.com/350x250" alt="Card image cap">
                             <div class="card-body">
@@ -157,6 +169,20 @@
                                 <a href="#" class="btn-block btn btn-warning bg-orange">Xem chi tiết</a>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <nav class="wrap-pagination d-flex justify-content-center">
+                            <ul class="pagination">
+                                <li class="page-item"><a class="page-link text-orange" href="#">Previous</a></li>
+                                <li class="page-item"><a class="page-link text-orange" href="#">1</a></li>
+                                <li class="page-item"><a class="page-link text-orange" href="#">2</a></li>
+                                <li class="page-item"><a class="page-link text-orange" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link text-orange" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                        <!-- ./ Pagination -->
                     </div>
                 </div>
             </div>
@@ -222,7 +248,7 @@
             </div>
         </footer>
         <!-- ./ Footer -->
-        
+
         <div class="copyright">
             <div class="container">
                 <div class="row">
@@ -238,7 +264,9 @@
         <!-- ./ Copyright -->
     </div>
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
