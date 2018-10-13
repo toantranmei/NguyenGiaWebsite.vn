@@ -1,7 +1,7 @@
 # Front-End Useful Bootstrap 4 Framework CSS nguyengia.vn
 
 <a href="https://github.com/trantoan960/NguyenGiaWebsite.vn"><img
-  src="https://github.com/trantoan960/NguyenGiaWebsite.vn/skyalbert.jpeg" alt="Normalize Logo"
+  src="https://github.com/trantoan960/NguyenGiaWebsite.vn/blob/master/skyalbert.jpeg" alt="Normalize Logo"
   width="80" height="80" style="border-radius: 50%" align="right"></a>
 
 > A project for my team, My team study at Hanoi Univesity Of Industry
