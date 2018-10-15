@@ -56,10 +56,15 @@ h1, h2, h3, h4, h5, h6 { font-style: normal; color: #ff724c; text-rendering: opt
 /* ---------------------------------------- #03 Header ----------------------------------------- */
 .header-top { height: 90px; position: fixed; z-index: 10; top: 0; left: 0; width: 100%; font-size: 14px; background: #fff; }
 .avt-img { height: 90px; max-width: 100%; }
-#topNav ul { list-style: none; position: relative; }
-#topNav ul li { float: left; height: 90px; line-height: 90px; }
-#topNav ul li a { display: block; height: 90px; padding: 0 20px; text-decoration: none; color: #ff724c; transition: all .2s;}
-#topNav ul li a:hover { background: #ff724c; color: #fff; }
+#topNav > ul { list-style: none; position: relative; }
+#topNav > ul > li { float: left; height: 90px; line-height: 90px; }
+#topNav > ul > li > a { display: block; height: 90px; padding: 0 20px; text-decoration: none; color: #ff724c; transition: all .2s;}
+#topNav > ul > li > a:hover, #topNav > ul > li.active > a { background: #ff724c; color: #fff; }
+ul.sub-menu { display: none; background: #fff; position: relative;}
+#topNav > ul > li > a:hover + ul.sub-menu, ul.sub-menu:hover { transition: all .5s; display: block;}
+ul.sub-menu > li { line-height: 46px; }
+ul.sub-menu > li > a { display: block; padding: 7px 12px; }
+ul.sub-menu > li > a:hover, ul.sub-menu > li.active > a { background: #ff724c; color: #fff;  }
 .menu-items-res { width: 90px; height: 90px; line-height: 90px; text-align: center; display: block; }
 .menu-items-res:hover { background: #ff724c; color: #fff; }
 .block-menu-res.active { display: block; transition: all .5s; }
